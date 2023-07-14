@@ -2,7 +2,7 @@
 @setlocal enableextensions
 @echo:
 
-set ILC_EXE="%USERPROFILE%\.nuget\packages\runtime.win-x64.microsoft.dotnet.ilcompiler\7.0.5\tools\ilc.exe"
+set ILC_EXE="%USERPROFILE%\.nuget\packages\runtime.win-x64.microsoft.dotnet.ilcompiler\7.0.9\tools\ilc.exe"
 
 if not exist "%ILC_EXE%" (
    dotnet restore noruntime.csproj
